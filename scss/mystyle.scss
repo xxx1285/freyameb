@@ -1,0 +1,130 @@
+.figure {
+  // Ensures the caption's text aligns with the image.
+  display: inline-block;
+  font-size: 8px;
+}
+
+.container-fluid.w1780 {
+  max-width: 1780px;
+}
+
+header {
+  .navbar {}
+}
+ 
+// Menu-Close
+.navbar-toggler[aria-expanded=true] .navbar-toggler-default {
+  display: none;
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-toggled {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-toggler .navbar-toggler-toggled {
+  display: none;
+}
+
+//Header
+header .pl-VisuallyHidden {
+  border: 0;
+  padding: 0;
+  margin: -1px;
+  height: 1px;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  word-break: normal;
+  transform: translateZ(0);
+}
+
+// Topbar
+.topbar-contact {
+  .topbar-text {
+    .topbar-link {
+      font-size: 16px; 
+      color: #000;
+      text-decoration: none;
+    }
+    .btn-check:active+.btn-outline-light, .btn-check:checked+.btn-outline-light, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show, .btn-outline-light:active 
+    {
+      color: #000;
+  }
+  }
+  .navbar-nav-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--bs-yellow);
+    color: white
+  }
+}
+
+
+// Navbar
+.nav-main-header {
+  background: #fff;
+  border-top: 10px solid var(--bs-purple);
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.navbar .nav-link.topmenu {
+  font-size: 16px;
+  padding: .3rem 1rem;
+  color: black;
+}
+
+.navbar .nav-link.topmenu .arrow {
+  fill: rgb(43, 116, 226)
+}
+
+.header-menu-nav {
+  border-top: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-menu-nav.navbar {
+    padding: 0;
+  }
+
+  .menu .show .arrow:hover {
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header.sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+  }
+}
+
+//Slider - text
+@media (max-width: 991.98px){
+  .bd-masthead h1 { font-size: 30px;}
+}
+
+// treugolnick
+@media (max-width: 991.98px){
+.dropdown:not(.nav-item) .dropdown-menu:before
+{
+  content: ''; 
+  position: absolute;
+  left: 20px; bottom: -20px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+}

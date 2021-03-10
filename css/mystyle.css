@@ -1,0 +1,116 @@
+.figure {
+  display: inline-block;
+  font-size: 8px;
+}
+
+.container-fluid.w1780 {
+  max-width: 1780px;
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-default {
+  display: none;
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-toggled {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.navbar-toggler .navbar-toggler-toggled {
+  display: none;
+}
+
+header .pl-VisuallyHidden {
+  border: 0;
+  padding: 0;
+  margin: -1px;
+  height: 1px;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  word-break: normal;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.topbar.navbar {
+  background-color: #221f1f;
+}
+
+.topbar.navbar .topbar-text .topbar-link {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.topbar.navbar .topbar-text .btn-check:active + .btn-outline-light, .topbar.navbar .topbar-text .btn-check:checked + .btn-outline-light, .topbar.navbar .topbar-text .btn-outline-light.active, .topbar.navbar .topbar-text .btn-outline-light.dropdown-toggle.show, .topbar.navbar .topbar-text .btn-outline-light:active {
+  color: #000;
+}
+
+.topbar.navbar .navbar-nav-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--bs-yellow);
+  color: white;
+}
+
+.nav-main-header {
+  background: #fff;
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.navbar .nav-link.topmenu {
+  font-size: 16px;
+  padding: .3rem 1rem;
+  color: black;
+}
+
+.navbar .nav-link.topmenu .arrow {
+  fill: #2b74e2;
+}
+
+.header-menu-nav {
+  border-top: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-menu-nav.navbar {
+    padding: 0;
+  }
+  .menu .show .arrow:hover {
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header.sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .dropdown:not(.nav-item) .dropdown-menu:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+  }
+}
