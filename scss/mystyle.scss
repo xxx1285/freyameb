@@ -43,12 +43,56 @@ header .pl-VisuallyHidden {
   transform: translateZ(0);
 }
 
+.header-contact {border-bottom: 1px solid #ccc;}
+
+//Menu-Header
+.navbar-toggler .navbar-toggler-icon .navbar-toggler-bar.bar2, .navbar-toggler .navbar-toggler-icon .navbar-toggler-bar.bar3 {
+  margin-top: 7px;
+}
+.navbar-toggler .navbar-toggler-icon .navbar-toggler-bar {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 3px;
+  border-radius: 1px;
+  background: rgb(255, 255, 255);
+  transition: all .2s;
+  margin: 0 auto;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-toggler[aria-expanded=true] .navbar-toggler-bar.bar1 {
+  transform: rotate(
+45deg
+);
+  transform-origin: 10% 10%;
+  margin-top: 4px;
+}
+.navbar-toggler[aria-expanded=true] .navbar-toggler-bar.bar2 {
+  opacity: 0;
+}
+.navbar-toggler[aria-expanded=true] .navbar-toggler-bar.bar3 {
+  transform: rotate(
+-45deg
+);
+  transform-origin: 10% 90%;
+  margin-top: 3px;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+}
+
+
 // Topbar
 .topbar-contact {
   .topbar-text {
     .topbar-link {
       font-size: 16px; 
-      color: #000;
+      color: #fff;
       text-decoration: none;
     }
     .btn-check:active+.btn-outline-light, .btn-check:checked+.btn-outline-light, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show, .btn-outline-light:active 
@@ -57,9 +101,9 @@ header .pl-VisuallyHidden {
   }
   }
   .navbar-nav-svg {
-    width: 20px;
-    height: 20px;
-    fill: var(--bs-yellow);
+    width: 21px;
+    height: 21px;
+    fill: var(--bs-blue);
     color: white
   }
 }
@@ -67,8 +111,7 @@ header .pl-VisuallyHidden {
 
 // Navbar
 .nav-main-header {
-  background: #fff;
-  border-top: 10px solid var(--bs-purple);
+  background: #000000b5;
 }
 
 .navbar-collapse {
@@ -76,18 +119,16 @@ header .pl-VisuallyHidden {
 }
 
 .navbar .nav-link.topmenu {
-  font-size: 16px;
-  padding: .3rem 1rem;
-  color: black;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .navbar .nav-link.topmenu .arrow {
   fill: rgb(43, 116, 226)
 }
 
-.header-menu-nav {
-  border-top: 1px solid #ccc;
-}
+
 
 @media only screen and (max-width: 992px) {
   .header-menu-nav.navbar {
