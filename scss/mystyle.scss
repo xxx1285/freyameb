@@ -154,10 +154,13 @@ header .pl-VisuallyHidden {
   }
 }
 
-//Slider - text
+//Slider
+.slider-freya{background: var(--bs-dark);}
 @media (max-width: 991.98px){
   .bd-masthead h1 { font-size: 30px;}
 }
+
+.flickity-page-dots{bottom: 7px!important;}
 
 // treugolnick
 @media (max-width: 991.98px){
