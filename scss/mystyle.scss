@@ -55,7 +55,7 @@ header .pl-VisuallyHidden {
   width: 30px;
   height: 3px;
   border-radius: 1px;
-  background: rgb(255, 255, 255);
+  background: #000;
   transition: all .2s;
   margin: 0 auto;
 }
@@ -92,7 +92,7 @@ header .pl-VisuallyHidden {
   .topbar-text {
     .topbar-link {
       font-size: 16px; 
-      color: #fff;
+      color: #050505;
       text-decoration: none;
     }
     .btn-check:active+.btn-outline-light, .btn-check:checked+.btn-outline-light, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show, .btn-outline-light:active 
@@ -104,14 +104,14 @@ header .pl-VisuallyHidden {
     width: 21px;
     height: 21px;
     fill: var(--bs-blue);
-    color: white
+    color: #050505
   }
 }
 
 
 // Navbar
 .nav-main-header {
-  background: #0000009e;
+  background: #fff;
 }
 
 
@@ -120,9 +120,10 @@ header .pl-VisuallyHidden {
 }
 
 .navbar .nav-link.topmenu {
-  font-size: 17px;
-  color: #fff;
+  font-size: 15px;
+  color: #050505;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .navbar .nav-link.topmenu .arrow {
